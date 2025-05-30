@@ -43,3 +43,7 @@ function deleteTodo(index) {
         renderTodos();
     }
 }
+
+todoForm.addEventListener ('submit', addTodo)
+
+renderTodos();
